@@ -5,8 +5,8 @@
 
 	<groupId>com.csoptt</groupId>
 	<artifactId>file_upload</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
 
 	<name>file_upload</name>
 	<description>Service to upload picture and other type of files.</description>
@@ -17,6 +17,10 @@
 		<version>2.0.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
+	<modules>
+		<module>file_upload-main</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

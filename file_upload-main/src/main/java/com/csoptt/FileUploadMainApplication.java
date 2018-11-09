@@ -9,15 +9,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * date 2018-09-05
  */
 @SpringBootApplication
-public class FileUploadApplication {
+public class FileUploadMainApplication {
+
 	/**
 	 * 启动类
 	 * @param args
-	 * @return 
+	 * @return
 	 * @author qishao
 	 * date 2018-09-05
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(FileUploadApplication.class, args);
+		SpringApplication.run(FileUploadMainApplication.class, args);
 	}
 }
