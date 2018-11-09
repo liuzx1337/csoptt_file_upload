@@ -3,6 +3,9 @@ package com.csoptt.properties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 文件传输 - 配置
  *
@@ -27,6 +30,19 @@ public class FileUploadProperties {
      * Nginx根目录
      */
     private String nginxBasePath = "http://127.0.0.1:8080/";
+
+    /**
+     * 上传文件种类与目录的映射关系
+     * 可自定义
+     */
+    private Map<String, String> fileUploadZone = new HashMap<>();
+
+    /**
+     * 生成一些默认属性用
+     */
+    public FileUploadProperties() {
+        fileUploadZone.put("default", "default");
+    }
 
     /**
      * Gets the value of tempFilePath.
@@ -86,5 +102,24 @@ public class FileUploadProperties {
      */
     public void setNginxBasePath(String nginxBasePath) {
         this.nginxBasePath = nginxBasePath;
+    }
+
+    /**
+     * Gets the value of fileUploadZone.
+     *
+     * @return the value of fileUploadZone
+     */
+    public Map<String, String> getFileUploadZone() {
+        return fileUploadZone;
+    }
+
+    /**
+     * Sets the fileUploadZone
+     * <p>You can use getFileUploadZone() to get the value of fileUploadZone</p>
+     *
+     * @param fileUploadZone fileUploadZone
+     */
+    public void setFileUploadZone(Map<String, String> fileUploadZone) {
+        this.fileUploadZone = fileUploadZone;
     }
 }
