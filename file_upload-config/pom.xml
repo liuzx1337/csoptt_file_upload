@@ -9,15 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>file_upload-restful</artifactId>
+    <artifactId>file_upload-config</artifactId>
     <version>1.0.0</version>
 
     <dependencies>
-        <!-- 模块间的依赖 -->
         <dependency>
-            <groupId>com.csoptt</groupId>
-            <artifactId>file_upload-config</artifactId>
-            <version>1.0.0</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 </project>

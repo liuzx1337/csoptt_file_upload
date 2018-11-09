@@ -14,7 +14,7 @@ import javax.servlet.Filter;
  * @date 2018-09-05
  */
 @Configuration
-public class WebConfig {
+public class SpringFilterConfig {
 
     /**
      * 跨域
