@@ -1,6 +1,7 @@
 package com.csoptt.service;
 
 import com.csoptt.properties.FileUploadProperties;
+import com.csoptt.vo.response.FilePathInfoVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -25,10 +26,17 @@ public class FileUploadService {
      *
      * @param file
      * @param fileType
+     * @return 文件信息
      * @author qishao
      * date 2018-11-09
      */
-    public void upload(MultipartFile file, String fileType) {
-        //
+    public FilePathInfoVO upload(MultipartFile file, String fileType) {
+        FilePathInfoVO filePathInfoVO = new FilePathInfoVO();
+        // 文件非空，则进行下面的步骤
+        if (!file.isEmpty()) {
+
+        }
+
+        return filePathInfoVO;
     }
 }
