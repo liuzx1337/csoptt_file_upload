@@ -21,7 +21,6 @@
 	<modules>
 		<module>file_upload-main</module>
 		<module>file_upload-restful</module>
-		<module>file_upload-config</module>
 		<module>file_upload-entity</module>
 		<!--<module>file_upload-client</module>-->
 	</modules>
