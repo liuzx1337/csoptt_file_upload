@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.servlet.Filter;
 
 /**
- * web相关配置
+ * 过滤器相关配置
  *
  * @author qishao
  * @date 2018-09-05
