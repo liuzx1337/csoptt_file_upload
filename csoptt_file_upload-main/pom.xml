@@ -3,16 +3,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>file_upload-main</artifactId>
+	<artifactId>csoptt_file_upload-main</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>file_upload-main</name>
+	<name>csoptt_file_upload-main</name>
 	<description>Spring Run</description>
 
 	<parent>
 		<groupId>com.csoptt</groupId>
-		<artifactId>file_upload</artifactId>
+		<artifactId>csoptt_file_upload</artifactId>
 		<version>1.0.0</version>
 	</parent>
 
@@ -26,7 +26,7 @@
 		<!-- 模块间的依赖 -->
 		<dependency>
 			<groupId>com.csoptt</groupId>
-			<artifactId>file_upload-restful</artifactId>
+			<artifactId>csoptt_file_upload-restful</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.csoptt</groupId>
-	<artifactId>file_upload</artifactId>
+	<artifactId>csoptt_file_upload</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
-	<name>file_upload</name>
+	<name>csoptt_file_upload</name>
 	<description>Service to upload picture and other type of files.</description>
 
 	<parent>
@@ -19,9 +19,9 @@
 	</parent>
 
 	<modules>
-		<module>file_upload-main</module>
-		<module>file_upload-restful</module>
-		<module>file_upload-entity</module>
+		<module>csoptt_file_upload-main</module>
+		<module>csoptt_file_upload-restful</module>
+		<module>csoptt_file_upload-entity</module>
 		<!--<module>file_upload-client</module>-->
 	</modules>
 
