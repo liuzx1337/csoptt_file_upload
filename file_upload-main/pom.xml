@@ -14,7 +14,6 @@
 		<groupId>com.csoptt</groupId>
 		<artifactId>file_upload</artifactId>
 		<version>1.0.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
