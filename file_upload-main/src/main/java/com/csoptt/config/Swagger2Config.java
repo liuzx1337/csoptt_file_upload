@@ -43,7 +43,7 @@ public class Swagger2Config {
      * date 2018-09-05
      */
     private ApiInfo createApiInfo() {
-        return new ApiInfoBuilder().title("singleModule系统RESTful APIs")
+        return new ApiInfoBuilder().title("CSOL专业评测团 - 文件服务 - RESTful APIs")
                 .contact(new Contact("CSO Pro Evaluation Team", null, "Liuzx1337@163.com"))
                 .version("1.0.0").build();
     }
