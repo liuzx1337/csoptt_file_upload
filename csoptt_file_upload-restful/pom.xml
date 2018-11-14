@@ -18,12 +18,36 @@
             <groupId>com.csoptt</groupId>
             <artifactId>csoptt_file_upload-entity</artifactId>
             <version>1.0.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.csoptt</groupId>
+                    <artifactId>utils</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
-
+        <!-- Spring Boot Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!-- Swagger-ui -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <!-- csoptt配置 -->
         <dependency>
             <groupId>com.csoptt</groupId>
             <artifactId>csoptt_config-properties</artifactId>
-            <version>1.0.1</version>
+        </dependency>
+        <!-- csoptt工具依赖 -->
+        <dependency>
+            <groupId>com.csoptt</groupId>
+            <artifactId>utils</artifactId>
         </dependency>
     </dependencies>
 </project>
