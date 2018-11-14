@@ -18,12 +18,6 @@
             <groupId>com.csoptt</groupId>
             <artifactId>csoptt_file_upload-entity</artifactId>
             <version>1.0.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>com.csoptt</groupId>
-                    <artifactId>utils</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <!-- Spring Boot Web -->
         <dependency>
@@ -43,11 +37,12 @@
         <dependency>
             <groupId>com.csoptt</groupId>
             <artifactId>csoptt_config-properties</artifactId>
-        </dependency>
-        <!-- csoptt工具依赖 -->
-        <dependency>
-            <groupId>com.csoptt</groupId>
-            <artifactId>utils</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-web</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 </project>

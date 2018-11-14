@@ -20,6 +20,7 @@
     </repositories>
 
     <dependencies>
+        <!-- csoptt工具依赖 -->
         <dependency>
             <groupId>com.csoptt</groupId>
             <artifactId>utils</artifactId>

@@ -20,23 +20,24 @@
     </repositories>
 
     <dependencies>
+        <!-- Spring Boot Web组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.0.4.RELEASE</version>
         </dependency>
-
+        <!-- csoptt工具依赖 -->
         <dependency>
             <groupId>com.csoptt</groupId>
             <artifactId>utils</artifactId>
             <version>1.0.2</version>
         </dependency>
-
+        <!-- Spring Cloud FeignClient -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-
+        <!-- fileUpload实体类 -->
         <dependency>
             <groupId>com.csoptt</groupId>
             <artifactId>csoptt_file_upload-entity</artifactId>
@@ -46,6 +47,7 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- Spring Cloud总依赖 -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
