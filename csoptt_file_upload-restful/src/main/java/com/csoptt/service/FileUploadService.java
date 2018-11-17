@@ -3,7 +3,7 @@ package com.csoptt.service;
 import com.csoptt.enums.FileUploadExceptionEnums;
 import com.csoptt.exception.FileUploadException;
 import com.csoptt.properties.FileUploadProperties;
-import com.csoptt.vo.response.FilePathInfoVO;
+import com.csoptt.vo.FilePathInfoVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

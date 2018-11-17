@@ -1,4 +1,4 @@
-package com.csoptt.vo.response;
+package com.csoptt.vo;
 
 /**
  * 上传后文件的相关信息

@@ -4,7 +4,7 @@ import com.csoptt.service.FileUploadService;
 import com.csoptt.utils.base.controller.BaseController;
 import com.csoptt.utils.http.ResponseMessage;
 import com.csoptt.utils.http.Result;
-import com.csoptt.vo.response.FilePathInfoVO;
+import com.csoptt.vo.FilePathInfoVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
