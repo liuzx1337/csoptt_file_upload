@@ -10,7 +10,7 @@ import javax.servlet.MultipartConfigElement;
 /**
  * 临时文件存放
  *
- * @author liuzixi
+ * @author qishao
  * @date 2018-11-09
  */
 @Configuration
@@ -33,7 +33,7 @@ public class TempFileConfig {
      * 设置临时文件存放路径
      *
      * @return
-     * @author liuzixi
+     * @author qishao
      * date 2018-11-09
      */
     @Bean
